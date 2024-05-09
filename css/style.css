@@ -1,4 +1,6 @@
 /*GENERAL*/
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@200&display=swap');
+
 :root {
   --main-color: #E44444; /* var(--main-color) */
   --second-color: #CD487B; /* var(--second-color) */
@@ -185,4 +187,10 @@ p {
 .buttonHighlight:hover {
 	font-weight: 800;
 	border-width: 3px;
+}
+
+@media all and (max-width: 768px){
+	header img {
+		left: 62px;
+	}
 }
